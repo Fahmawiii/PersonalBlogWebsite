@@ -1,0 +1,22 @@
+.header {
+    grid-area: hd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    padding: 25px;
+  
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .header nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
